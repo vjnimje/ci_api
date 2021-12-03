@@ -54,3 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['api/demo']= 'api/ApiDemoController/index';
+$route['api/emp']= 'api/ApiEmployeeController/index';
+$route['api/storeemp']= 'api/ApiEmployeeController/storeEmp';
+$route['api/findemp/(:any)']= 'api/ApiEmployeeController/findemp/$1';
